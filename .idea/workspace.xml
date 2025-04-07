@@ -4,11 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf45f944-c36b-444c-8944-1cfbf9e7c724" name="Changes" comment="update" />
+    <list default="true" id="cf45f944-c36b-444c-8944-1cfbf9e7c724" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/Builder/clase/IBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/clase/Petrecere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/clase/PetrecereBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/program/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EagerInitialization/clase/Cuptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EagerInitialization/clase/Preparat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EagerInitialization/program/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LazyInitialization/clase/SingletonLazy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LazyInitialization/program/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypeFactory/clase/AContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypeFactory/clase/ContractCorporate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypeFactory/clase/ContractParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypeFactory/clase/PrototypeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypeFactory/program/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleFactory/clase/ETipPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleFactory/clase/IPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleFactory/clase/PizzaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleFactory/clase/PizzaRoma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleFactory/clase/PizzaVegetariana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleFactory/program/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -30,6 +62,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Builder.program.Main.executor": "Run",
+    "Application.EagerInitialization.program.Main.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PrototypeFactory.program.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -42,6 +78,82 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CTS\src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.LazyInitialization.program.Main">
+    <configuration name="Builder.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Builder.program.Main" />
+      <module name="CTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Builder.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EagerInitialization.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EagerInitialization.program.Main" />
+      <module name="CTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EagerInitialization.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LazyInitialization.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LazyInitialization.program.Main" />
+      <module name="CTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LazyInitialization.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleFactory.program.Main" />
+      <module name="CTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SimpleFactory.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrototypeFactory.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrototypeFactory.program.Main" />
+      <module name="CTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PrototypeFactory.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LazyInitialization.program.Main" />
+        <item itemvalue="Application.EagerInitialization.program.Main" />
+        <item itemvalue="Application.Builder.program.Main" />
+        <item itemvalue="Application.PrototypeFactory.program.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744039038024</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1744039339162</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744039339162</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
