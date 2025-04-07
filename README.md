@@ -1,0 +1,1 @@
+Calitate și testare software
