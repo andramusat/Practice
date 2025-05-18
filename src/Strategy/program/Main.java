@@ -1,0 +1,32 @@
+package Strategy.program;
+
+import Strategy.clase.MeniuRestaurant;
+import Strategy.clase.OfertaMeniu;
+import Strategy.clase.StrategieCaloriiMinim;
+import Strategy.clase.StrategieCarbohidratiMinim;
+
+public class Main {
+    public static void main(String[] args) {
+        MeniuRestaurant meniuRestaurant = new MeniuRestaurant();
+
+        //adaugare meniuri in meniu restaurant
+        OfertaMeniu meniu1 = new OfertaMeniu("Meniu1", 750, 70);
+        OfertaMeniu meniu2 = new OfertaMeniu("Meniu2", 500, 80);
+        OfertaMeniu meniu3 = new OfertaMeniu("Meniu3", 650, 20);
+        OfertaMeniu meniu4 = new OfertaMeniu("Meniu4", 800, 90);
+
+        meniuRestaurant.addOfertaMeniu(meniu1);
+        meniuRestaurant.addOfertaMeniu(meniu2);
+        meniuRestaurant.addOfertaMeniu(meniu3);
+        meniuRestaurant.addOfertaMeniu(meniu4);
+
+        //alegere meniu numar calorii minim
+        meniuRestaurant.setStrategieAlegere(new StrategieCaloriiMinim());
+        System.out.println("Meniu cu minim calorii " + meniuRestaurant.alegereOferta());
+
+        //alegere meniu numar carbohidrati minim
+        meniuRestaurant.setStrategieAlegere(new StrategieCarbohidratiMinim());
+        System.out.println("Meniu cu minim carbohidrati " + meniuRestaurant.alegereOferta());
+
+    }
+}

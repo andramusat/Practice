@@ -5,16 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf45f944-c36b-444c-8944-1cfbf9e7c724" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/src/LicentaTurism/clase/AbstractHolidayPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LicentaTurism/clase/AbstractTourismLicense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LicentaTurism/clase/IBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LicentaTurism/clase/LicentaDeTurism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LicentaTurism/clase/PachetTuristic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LicentaTurism/clase/PachetTuristicBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LicentaTurism/clase/TipCamera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LicentaTurism/clase/TipTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LicentaTurism/clase/TooManyChangeLicenseRequests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LicentaTurism/program/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/clase/AdaptorEvaluareClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/clase/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/clase/EvaluareClientFirmaA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/clase/EvaluareClientFrmaB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/clase/IEvaluareClientFirmaA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/clase/IEvaluareClientFirmaB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/program/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsability/clase/AHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsability/clase/Bucatar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsability/clase/Comanda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsability/clase/Ospatar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsability/program/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/clase/Bucatar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/clase/Facade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/clase/GestiuneBucatari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/clase/GestiuneSali.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/clase/Sala.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/program/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flyweight/clase/Bon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flyweight/clase/ETipPrintare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flyweight/clase/IPrintare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flyweight/clase/MesajPrintare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flyweight/clase/MesajPrintareFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flyweight/program/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/clase/IProcesabil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/clase/MeniuRestaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/clase/OfertaMeniu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/clase/StrategieCaloriiMinim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/clase/StrategieCarbohidratiMinim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/program/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Template/clase/AEvaluareDaune.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Template/program/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +48,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Record" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,24 +66,30 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2vPCvxFRC8tWe5ifCYAjLdXIpPF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Adapter.program.Main.executor": "Run",
     "Application.Builder.program.Main.executor": "Run",
+    "Application.ChainOfResponsability.program.Main.executor": "Run",
     "Application.EagerInitialization.program.Main.executor": "Run",
+    "Application.Flyweight.program.Main.executor": "Run",
     "Application.LazyInitialization.program.Main.executor": "Run",
     "Application.LicentaTurism.program.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PrototypeFactory.program.Main.executor": "Run",
+    "Application.Strategy.program.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -75,13 +104,13 @@
       <recent name="D:\CTS\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LicentaTurism.program.Main">
-    <configuration name="Builder.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Builder.program.Main" />
+  <component name="RunManager" selected="Application.Template.program.Main">
+    <configuration name="Adapter.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Adapter.program.Main" />
       <module name="CTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Builder.program.*" />
+          <option name="PATTERN" value="Adapter.program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EagerInitialization.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EagerInitialization.program.Main" />
+    <configuration name="ChainOfResponsability.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChainOfResponsability.program.Main" />
       <module name="CTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EagerInitialization.program.*" />
+          <option name="PATTERN" value="ChainOfResponsability.program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazyInitialization.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LazyInitialization.program.Main" />
+    <configuration name="Flyweight.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Flyweight.program.Main" />
       <module name="CTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LazyInitialization.program.*" />
+          <option name="PATTERN" value="Flyweight.program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LicentaTurism.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LicentaTurism.program.Main" />
+    <configuration name="Strategy.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy.program.Main" />
       <module name="CTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LicentaTurism.program.*" />
+          <option name="PATTERN" value="Strategy.program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeFactory.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrototypeFactory.program.Main" />
+    <configuration name="Template.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Template.program.Main" />
       <module name="CTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrototypeFactory.program.*" />
+          <option name="PATTERN" value="Template.program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LicentaTurism.program.Main" />
-        <item itemvalue="Application.LazyInitialization.program.Main" />
-        <item itemvalue="Application.EagerInitialization.program.Main" />
-        <item itemvalue="Application.Builder.program.Main" />
-        <item itemvalue="Application.PrototypeFactory.program.Main" />
+        <item itemvalue="Application.Template.program.Main" />
+        <item itemvalue="Application.Strategy.program.Main" />
+        <item itemvalue="Application.Adapter.program.Main" />
+        <item itemvalue="Application.ChainOfResponsability.program.Main" />
+        <item itemvalue="Application.Flyweight.program.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +245,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744054153792</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updates">
+      <option name="closed" value="true" />
+      <created>1744056407122</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744056407122</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updates">
+      <option name="closed" value="true" />
+      <created>1746009396062</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746009396062</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
