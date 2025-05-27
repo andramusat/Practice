@@ -14,7 +14,7 @@ public class MeniuRestaurant {
     }
 
     public OfertaMeniu alegereOferta(){
-        if(strategieAlegere!=null){
+        if(strategieAlegere != null){
             return strategieAlegere.alegereMeniu(listaMeniuri);
         }
         else {

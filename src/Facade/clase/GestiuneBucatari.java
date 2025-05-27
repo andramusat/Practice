@@ -13,8 +13,5 @@ public class GestiuneBucatari {
     public Bucatar getBucatar(int i){
         return this.listaBucatari.get(i);
     }
-    public int getNrBucatari(){
-        return this.listaBucatari.size();
-    }
-
+    public int getNrBucatari(){ return this.listaBucatari.size(); }
 }
